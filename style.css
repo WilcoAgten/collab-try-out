@@ -1,8 +1,83 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+header {
+  position: relative;
+  height: 400px;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: aliceblue; /* KIES KLEUR en font? */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: green; /* KIES KLEUR */
+}
+
+@media (max-width: 1200px) {
+  header {
+    height: 300px;
+  }
+
+  nav {
+    height: 40px;
+  }
+
+  a {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    height: 200px;
+  }
+
+  nav {
+    height: 30px;
+  }
+
+  a {
+    font-size: 13px;
+  }
 }
 
 a {
