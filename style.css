@@ -3,3 +3,31 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+}
+
+footer * {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 10px;
+}
+
+footer ul {
+    list-style: none;
+
+}
+footer li {
+    margin-top: 10px;
+}
