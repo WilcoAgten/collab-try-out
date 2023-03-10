@@ -183,6 +183,8 @@ img {
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: bold;
+  text-align: center;
+  color: darkslategreen;
 }
 
 .index-main img {
