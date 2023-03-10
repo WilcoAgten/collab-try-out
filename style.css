@@ -140,6 +140,7 @@ img {
   border-radius: 0.5em;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .index-quote1 {
@@ -156,6 +157,30 @@ img {
 .index-green {
   color: seagreen;
   font-weight: bold;
+}
+
+.index-our-products {
+  font-family: "Varela";
+}
+
+.index-our-products-heading {
+  text-transform: uppercase;
+}
+
+.index-our-products-heading,
+.index-our-products-copy {
+  text-align: center;
+}
+
+.index-product p {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.index-main img {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1200px) {
