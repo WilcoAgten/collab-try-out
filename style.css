@@ -122,6 +122,12 @@ img {
   color: white;
   font-family: "Varela";
   background-size: cover;
+  height: 40em;
+}
+
+.index-vertical-center {
+  align-content: center;
+  height: 100%;
 }
 
 .index-main {
