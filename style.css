@@ -112,6 +112,81 @@ img {
   height: auto;
 }
 
+.index-start {
+  background-image: url("img/pot-bewerkt.jpg");
+  color: white;
+  font-family: "Varela";
+  background-size: cover;
+  height: 40em;
+}
+
+.index-vertical-center {
+  align-content: center;
+  height: 100%;
+}
+
+.index-main {
+  margin: 0;
+}
+
+.index-start h1 {
+  text-transform: uppercase;
+}
+
+.index-button {
+  border: none;
+  background-color: white;
+  font-family: "Varela";
+  padding: 1.5em 2.5em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.index-quote1 {
+  background-color: #fffaf0;
+  height: 20em;
+}
+
+.index-quote-tekst {
+  text-align: center;
+  font-family: "Varela";
+  font-size: 1.5em;
+  color: darkslategrey;
+}
+
+.index-green {
+  color: seagreen;
+  font-weight: bold;
+}
+
+.index-our-products {
+  font-family: "Varela";
+}
+
+.index-our-products-heading {
+  text-transform: uppercase;
+}
+
+.index-our-products-heading,
+.index-our-products-copy {
+  text-align: center;
+}
+
+.index-product p {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: darkslategreen;
+}
+
+.index-main img {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 1200px) {
   header {
     height: 300px;
