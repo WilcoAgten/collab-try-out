@@ -50,7 +50,7 @@ header li {
 }
 
 header a {
-  color: aliceblue; /* KIES KLEUR en font? */
+  color: aliceblue;
   text-decoration: none;
   font-size: 20px;
   font-family: "Bebas Neue";
@@ -58,8 +58,64 @@ header a {
 }
 
 header a:hover {
-  color: green; /* KIES KLEUR */
+  color: green;
 }
+
+/* ABOUT START */
+
+/* Style the about section */
+.about {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-family: "Varela", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the prices tables */
+.weed-prices,
+.hash-prices {
+  background-color: white;
+  padding: 0 50px 50px 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+
+thead th {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody td {
+  font-family: "Varela", sans-serif;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+/* ABOUT END */
 
 footer a {
   text-decoration: none;
@@ -199,6 +255,22 @@ img {
   a {
     font-size: 16px;
   }
+
+  .about h1 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  thead th {
+    font-size: 16px;
+  }
+
+  tbody td {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -212,5 +284,21 @@ img {
 
   a {
     font-size: 13px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  thead th {
+    font-size: 13px;
+  }
+
+  tbody td {
+    font-size: 10px;
   }
 }
