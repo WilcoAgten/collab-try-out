@@ -6,26 +6,20 @@ body {
   overflow-x: hidden;
 }
 header {
-  position: relative;
   height: 400px;
+  position: relative;
+  background-image: url("img/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .container {
   margin: 0 auto;
   width: 70%;
 }
 
-.banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("img/banner.png");
-  background-size: cover;
-  background-position: center;
-}
 
-nav {
+nav {  
   position: absolute;
   bottom: 0;
   left: 0;
@@ -34,8 +28,9 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 15%;
 }
 
 .logo img {
